@@ -63,8 +63,8 @@
         background: transparent;
       } 
     }
-
-      @media (max-width: 576px) {
+        
+    @media (max-width: 767px) {
         header {
         background: url("../img/header.jpeg") repeat-y;
         width: 100%;
@@ -82,7 +82,22 @@
         padding-bottom: 0;
         background: transparent;
       }
-          
+    }
+
+
+      @media (max-width: 576px) {
+        header {
+        background: url("../img/header.jpeg") repeat-y;
+        width: 100%;
+        height: 400vh;
+      }
+
+      .background-overlay {
+        background: rgba(0,0,0,0.3);
+        width: 100%;
+        height: 400vh;
+      }
+
    #recetas {
         background: url("../img/fondocomida.jpg") no-repeat;
         height: 300vh;
