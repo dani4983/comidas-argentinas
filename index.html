@@ -9,123 +9,18 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <!--FONT AWESOME-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+
+    <!--custom-->
     <link rel="stylesheet" href="./css/main.css">
 
 
-    <style media="screen">
-       @media (min-width: 1200px) {
-        header {
-        background-image: url("../img/header.jpeg") no-repeat;
-        width: 100%;
-        height: 100vh;
-        margin: 0 auto;
-        padding: 0 auto;
-      }
-
-      .background-overlay {
-        background: rgba(0,0,0,0.3);
-        width: 100%;
-        height: 100vh;
-    }
-     }
-
-      @media (max-width: 991px) {
-        
-
-      header {
-        background-image: url("../img/header.jpeg") repeat-y;
-        width: 100%;
-        height: 200vh;
-      }
-
-      .background-overlay {
-        background: rgba(0,0,0,0.3);
-        width: 100%;
-        height: 200vh;
-    }
-    
-
-      #recetas {
-        background-image: url("../img/fondocomida.jpg") no-repeat;
-        height: 200vh;
-        
-        position: relative;
-      }
-
-      #repostres {
-          background-image: url("../img/fondopostre.jpg") no-repeat;
-        height: 200vh;
-        position: relative;
-      }
-
-      .navbar {
-        padding-top: 0;
-        padding-bottom: 0;
-        background-color: transparent;
-      } 
-    }
-        
-    @media (max-width: 767px) {
-        header {
-        background-image: url("../img/header.jpeg") repeat-y;
-        width: 100%;
-        height: 400vh;
-      }
-
-      .background-overlay {
-        background: rgba(0,0,0,0.3);
-        width: 100%;
-        height: 400vh;
-      }
-
-      .navbar {
-        padding-top: 0;
-        padding-bottom: 0;
-        background: transparent;
-      }
-    }
-
-
-      @media (max-width: 576px) {
-        header {
-        background-image: url("../img/header.jpeg") repeat-y;
-        width: 100%;
-        height: 400vh;
-      }
-
-      .background-overlay {
-        background: rgba(0,0,0,0.3);
-        width: 100%;
-        height: 400vh;
-      }
-
-   #recetas {
-        background-image: url("../img/fondocomida.jpg") no-repeat;
-        height: 300vh;
-        
-        position: relative;
-      }
-
-      #repostres {
-          background-image: url("../img/fondopostre.jpg") no-repeat;
-        height: 300vh;
-        position: relative;
-      }
-
-      .navbar {
-        padding-top: 0;
-        padding-bottom: 0;
-        background: transparent;
-      } 
-    }
-
-    </style>
+   
 </head>
 <body>
 
     
     
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparent fixed-top">
             
            <div class="container-fluid">
                 <a class="navbar-brand collapse navbar-collapse" href="#">Comidas Argentinas</a>
@@ -163,18 +58,18 @@
 
           <!--HEADER-->
 
-    <header container-fluid>
+    <header>
         <div class="background-overlay">
             <div class="container-fluid py-5">
                 <div class="row text-center">
-                    <div class="col-sm-12 col-md-6 col-xl-3">
+                    <div class="col-md-6 align-self-center">
                         <div class="text-center text-white pt-5">
                             <h1>Comidas Argentinas</h1>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus nobis voluptatum, officiis voluptatibus rem odit veniam quod. Illum hic optio necessitatibus aperiam, temporibus reiciendis, assumenda omnis eaque minima quam earum!</p>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-6 col-xl-3">
-                        <div class="align-self-center pt-5">
+                    <div class="col-md-6 align-self-center">
+                        <div class=" pt-5">
                             <form>
                                 <div class="form-group">
                                     <label for="exampleInputEmail1" class="text-white">Email</label>
@@ -204,25 +99,25 @@
     <!--comidas-->
 
     <section id="comidas">
-        <div class="container text-center py-3 my-5" id="title">
+        <div class="container-fluid text-center py-3 my-5" id="title">
             <h2 class="h1" id="platos">Platos Típicos</h2>
         </div>
         <div class="container-fluid">
             <div class="row justify-content-center">
               
-                  <div class="col-xs-12 offset-xs-2 col-md-6 offset-md-6 col-lg-3  m-auto">
-                      <div class="card" style="width: 13rem; height: 500px;">
-                        <img class="card-img-top" src="./img/milanesa.jpg" width="100" height="150" alt="plato de milanesas">
+                  <div class="col-12 col-md-6 col-lg-3  m-auto">
+                      <div class="card" style="width:100%">
+                        <img class="card-img-top" src="./img/milanesa.jpg" style="width: 100%" alt="plato de milanesas">
                           <div class="card-body">
                             <h2 class="card-title">Milanesa a la napolitana</h2>
-                            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. itaque natus odit animi! Ipsam natus quis libero. Iste!</p>
+                            <p class="card-text">Lorem, amet consectetur adipisicing elit. itaque natus odit animi! Ipsam natus quis libero.</p>
                             
                           </div>
                         </div>
                       </div>
-                      <div class="col-xs-12 offset-xs-2 col-md-6 offset-md-6 col-lg-3 m-auto">
-                        <div class="card" style="width: 13rem; height: 500px;">
-                          <img class="card-img-top" src="./img/locro.jpg" width="100" height="150" alt="plato de locro">
+                      <div class="col-12 col-md-6 col-lg-3 m-auto">
+                        <div class="card" style="width:100%">
+                          <img class="card-img-top" src="./img/locro.jpg" style="width: 100%" alt="plato de locro">
                             <div class="card-body">
                               <h2 class="card-title">Locro</h2>
                               <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio, exercitationem dolore rerum repellat quidem necessitatibus vitae placeat ex.</p>
@@ -231,9 +126,9 @@
                           </div>
                     </div>
               
-                    <div class="col-xs-12 offset-xs-2 col-md-6 offset-md-6 col-lg-3 m-auto">
-                        <div class="card" style="width: 13rem; height: 500px;">
-                          <img class="card-img-top" src="./img/asado.jpg" width="100" height="150" alt="asado">
+                    <div class="col-12 col-md-6 col-lg-3 m-auto">
+                        <div class="card" style="width:100%">
+                          <img class="card-img-top" src="./img/asado.jpg" style="width: 100%" alt="asado">
                             <div class="card-body">
                               <h2 class="card-title">Asado</h2>
                               <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, alias. Cumque fuga fugiat cupiditate obcaecati nesciunt. Voluptates, ullam?</p>
@@ -241,9 +136,9 @@
                             </div>
                           </div>
                         </div>
-                        <div class="col-xs-12 offset-xs-2 col-md-6 offset-md-6 col-lg-3 m-auto">
-                          <div class="card" style="width: 13rem; height: 500px;">
-                            <img class="card-img-top" src="./img/tamales.jpg" width="100" height="150" alt="plato con tamales">
+                        <div class="col-12 col-md-6 col-lg-3 m-auto">
+                          <div class="card" style="width: 100%">
+                            <img class="card-img-top" src="./img/tamales.jpg" style="width: 100%" alt="plato con tamales">
                               <div class="card-body">
                                 <h2 class="card-title">Tamales</h2>
                                 <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque labore soluta voluptatibus recusandae, eum explicabo id impedit quia?</p>
@@ -263,19 +158,19 @@
     <div class="container-fluid">
             <div class="row justify-content-center">
                
-              <div class="col-xs-12 offset-xs-6 col-md-6 offset-md-6 col-lg-3 m-auto">
-                <div class="card" style="width: 13rem; height: 500px;">
-                  <img class="card-img-top" src="./img/tartas.jpg" width="100" height="150" alt="tartas">
+              <div class="col-12 col-md-6 col-lg-3 m-auto">
+                <div class="card" style="width: 100%">
+                  <img class="card-img-top" src="./img/tartas.jpg" style="width: 100%" alt="tartas">
                     <div class="card-body">
                       <h2 class="card-title">Tartas</h2>
-                      <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. itaque natus odit animi! Ipsam natus quis libero. Iste!</p>
+                      <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. itaque natus odit animi! Ipsam natus quis libero. Iste! sit amet consectetur adipisicing elit.</p>
                     </div>
                     </div>
                   </div>
                 
-                <div class="col-xs-12 offset-xs-6 col-md-6 offset-md-6 col-lg-3 m-auto">
-                  <div class="card" style="width: 13rem; height: 500px;">
-                    <img class="card-img-top" src="./img/asador.jpg" width="100" height="150" alt="asadores con corderitos">
+                <div class="col-12 col-md-6 col-lg-3 m-auto">
+                  <div class="card" style="width: 100%">
+                    <img class="card-img-top" src="./img/asador.jpg" style="width: 100%" alt="asadores con corderitos">
                       <div class="card-body">
                         <h2 class="card-title">Corderito</h2>
                         <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio, exercitationem dolore rerum repellat quidem necessitatibus vitae placeat ex.</p>
@@ -283,9 +178,9 @@
                       </div>
                     </div>
                 
-                <div class="col-xs-12 offset-xs-6 col-md-6 offset-md-6 col-lg-3 m-auto">
-                  <div class="card" style="width: 13rem; height: 500px;">
-                    <img class="card-img-top" src="./img/choripan.jpg" width="100" height="150" alt="choripan">
+                <div class="col-12 col-md-6 col-lg-3 m-auto">
+                  <div class="card" style="width: 100%">
+                    <img class="card-img-top" src="./img/choripan.jpg" style="width: 100%" alt="choripan">
                       <div class="card-body">
                         <h2 class="card-title">Choripan</h2>
                         <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, alias. Cumque fuga fugiat cupiditate obcaecati nesciunt. Voluptates, ullam?</p>
@@ -293,9 +188,9 @@
                       </div>
                     </div>
                   
-                  <div class="col-xs-12 offset-xs-6 col-md-6 offset-md-6 col-lg-3 m-auto">
-                    <div class="card" style="width: 13rem; height: 500px;">
-                      <img class="card-img-top" src="./img/enpanada.jpg" width="100" height="150" alt="Empanadas">
+                  <div class="col-12 col-md-6 col-lg-3 m-auto">
+                    <div class="card" style="width: 100%">
+                      <img class="card-img-top" src="./img/enpanada.jpg" style="width: 100%" alt="Empanadas">
                         <div class="card-body">
                           <h2 class="card-title">Empanada</h2>
                           <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque labore soluta voluptatibus recusandae, eum explicabo id impedit quia?</p>
@@ -310,31 +205,31 @@
     <!--Postres-->
 
     <section id="postres">
-        <div class="container text-center py-3 my-5">
+        <div class="container-fluid text-center py-3 my-5">
                 <h2 class="h1">Postres Tipicos</h2>
         </div>
                        <div class="container-fluid">
                           <div class="row justify-content-center">
                
                     
-                            <div class="col-xs-12 col-md-6 col-lg-3 m-auto">
-                              <div class="card" style="width: 13rem; height: 500px;">
-                                <img class="card-img-top" src="./img/alfajores.jpg" width="100" height="150" alt="alfajores">
+                            <div class="col-12 col-md-6 col-lg-3 m-auto">
+                              <div class="card" style="width: 100%">
+                                <img class="card-img-top" src="./img/alfajores.jpg" style="width: 100%" alt="alfajores">
                                   <div class="card-body">
                                     <h2 class="card-title">Alfajores</h2>
-                                    <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. itaque natus odit animi! Ipsam natus quis libero. Iste!</p>
+                                    <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. itaque natus odit animi! Ipsam natus quis libero. Iste! sit amet consectetur  sit amet consectetur.</p>
                                   
                                   </div>
                                 </div>
                               </div>
                    
                           
-                              <div class="col-xs-12 col-md-6 col-lg-3 m-auto">
-                                <div class="card" style="width: 13rem; height: 500px;">
-                                  <img class="card-img-top" src="./img/budin-pan.jpg" width="100" height="150" alt="budin de pan con dulce de leche">
+                              <div class="col-12 col-md-6 col-lg-3 m-auto">
+                                <div class="card" style="width: 100%">
+                                  <img class="card-img-top" src="./img/budin-pan.jpg" style="width: 100%" alt="budin de pan con dulce de leche">
                                   <div class="card-body">
                                     <h2 class="card-title">Budin de pan</h2>
-                                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. exercitationem repellat quidem necessitatibus vitae placeat ex.</p>
+                                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. exercitationem repellat quidem necessitatibus.</p>
                                   </div>
                                 </div>
                               </div>
@@ -342,9 +237,9 @@
               
                     
                        
-                              <div class="col-xs-12 col-md-6 col-lg-3 m-auto">
-                                <div class="card" style="width: 13rem; height: 500px;">
-                                  <img class="card-img-top" src="./img/faturas.jpg" width="100" height="150" alt="faturas">
+                              <div class="col-12 col-md-6 col-lg-3 m-auto">
+                                <div class="card" style="width: 100%">
+                                  <img class="card-img-top" src="./img/faturas.jpg" style="width: 100%" alt="faturas">
                                   <div class="card-body">
                                     <h2 class="card-title">Faturas</h2>
                                     <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, alias. Cumque fuga fugiat cupiditate obcaecati nesciunt. Voluptates, ullam?</p>
@@ -353,9 +248,9 @@
                               </div>
                             
                               
-                              <div class="col-xs-12 col-md-6 col-lg-3 m-auto">
-                                <div class="card" style="width: 13rem; height: 500px;">
-                                  <img class="card-img-top" src="./img/medialunas.jpg" width="100" height="150" alt="medialunas con mate">
+                              <div class="col-12 col-md-6 col-lg-3 m-auto">
+                                <div class="card" style="width: 100%">
+                                  <img class="card-img-top" src="./img/medialunas.jpg" style="width: 100%" alt="medialunas con mate">
                                     <div class="card-body">
                                       <h2 class="card-title">Medialuna</h2>
                                       <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta voluptatibus recusandae, eum explicabo id impedit quia?</p>
@@ -369,26 +264,26 @@
         
               
           
-              <br>
+              
           
               
     
-        <div class="container-fluid">
+              <div class="container-fluid">
                 <div class="row justify-content-center">
                     
-                  <div class="col-xs-12 col-md-6 col-lg-3  m-auto">
-                    <div class="card" style="width: 13rem; height: 500px;">
-                      <img class="card-img-top" src="./img/panqueque.jpg" width="100" height="150" alt="panqueques">
+                  <div class="col-12 col-md-6 col-lg-3  m-auto">
+                    <div class="card" style="width: 100%">
+                      <img class="card-img-top" src="./img/panqueque.jpg" style="width: 100%" alt="panqueques">
                         <div class="card-body">
                           <h2 class="card-title">Panqueques</h2>
-                          <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. itaque natus odit animi! Ipsam natus quis libero. Iste!</p>
+                          <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. itaque natus odit animi! Ipsam natus quis libero. Iste! sit amet consectetur adipisicing elit.</p>
                         </div>
                         </div>
                       </div>
                     
-                    <div class="col-xs-12 col-md-6 col-lg-3 m-auto">
-                      <div class="card" style="width: 13rem; height: 500px;">
-                        <img class="card-img-top" src="./img/pastelitos.jpg" width="100" height="150" alt="pastelitos">
+                    <div class="col-12 col-md-6 col-lg-3 m-auto">
+                      <div class="card" style="width: 100%">
+                        <img class="card-img-top" src="./img/pastelitos.jpg" style="width: 100%" alt="pastelitos">
                           <div class="card-body">
                             <h2 class="card-title">Pastelitos</h2>
                             <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio, exercitationem dolore rerum repellat quidem necessitatibus vitae placeat ex.</p>
@@ -396,9 +291,9 @@
                           </div>
                         </div>
                     
-                    <div class="col-xs-12 col-md-6 col-lg-3 m-auto">
-                      <div class="card" style="width: 13rem; height: 500px;">
-                        <img class="card-img-top" src="./img/pionono.jpg" width="100" height="150" alt="pionono">
+                    <div class="col-12 col-md-6 col-lg-3 m-auto">
+                      <div class="card" style="width: 100%">
+                        <img class="card-img-top" src="./img/pionono.jpg" style="width: 100%" alt="pionono">
                           <div class="card-body">
                             <h2 class="card-title">Pionono</h2>
                             <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, alias. Cumque fuga fugiat cupiditate obcaecati nesciunt. Voluptates, ullam?</p>
@@ -406,12 +301,12 @@
                           </div>
                         </div>
                       
-                      <div class="col-xs-12 col-md-6 col-lg-3 m-auto">
-                        <div class="card" style="width: 13rem; height: 500px;">
-                          <img class="card-img-top" src="./img/queso-y-dulce.jpg" width="100" height="150" alt="queso y dulce">
+                      <div class="col-12 col-md-6 col-lg-3 m-auto">
+                        <div class="card" style="width: 100%">
+                          <img class="card-img-top" src="./img/queso-y-dulce.jpg" style="width: 100%" alt="queso y dulce">
                             <div class="card-body">
                               <h2 class="card-title">Queso y dulce</h2>
-                              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque labore soluta voluptatibus recusandae, eum explicabo id impedit quia?</p>
+                              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque sit amet consectetur adipisicing elit.</p>
                             </div>
                             </div>
                           </div>
@@ -419,18 +314,18 @@
                     
                 </div>
     </section>
-    <br><br><br>
+    
 
      <!-- Recetas -->
-     <div class="my-5">
-        <div class="contatiner text-center py-3 mb-5">
-            <h2 class="h1" id="replatos">Recetas de comidas</h2>
+     <div id="recetas" class="mt-5">
+        <div class="contatiner-fluid text-center">
+            <h2  class="h1">Recetas de comidas</h2>
           </div>
-      <section id="recetas" class="container text-center p-2">
+          
         
-        <div class="container  justify-content-center align-self-center">
-          <div class="row" id="fondoComida">
-                    <div class="accordion" id="accordionExample">
+        <div class="container-fluid justify-content-center align-self-center">
+           <div class="row">
+                    <div class="col-12 accordion absoluto mt-4" id="accordionExample">
                       <div class="card">
                           <div class="card-header" id="headingOne">
                               <h5 class="mb-0">
@@ -554,22 +449,22 @@
                     </div>
           </div>
         </div>
-     </section>
+     
      </div>
-          <br><br><br><br><br>
+          
       
           <!-- Postres-->
           
 
-     <div class="m-1">
-        <div class="contatiner text-center py-3">
+     <div id="repostres" class="mb-0 mt-5">
+        <div class="contatiner-fluid text-center">
             <h2 class="h1">Recetas de postres</h2>
-          </div><br>
-      <section id="repostres" class="container text-center p-2">
+          </div>
+      
         
-        <div class="container  justify-content-center align-self-center">
-          <div class="row" id="fondoPostre">
-            <div class="accordion" id="accordionExampl">
+        <div class="container-fluid justify-content-center align-self-center">
+          <div class="row">
+            <div class="col-12 accordion absoluto mt-4" id="accordionExampl">
                       <div class="card">
                           <div class="card-header" id="headingNine">
                               <h5 class="mb-0">
@@ -693,20 +588,20 @@
             </div>
           </div>
         </div>
-     </section>
+     
      </div>
-     <br><br><br><br><br>
+     
      
     <!--EVENTOS-->
-    <div class="contatiner text-center mt-5 py-3">
+    <div class="contatiner-fluid text-center py-3">
       <h2 class="h1">eventos</h2>
-    </div><br>
+    </div>
     <section id="eventos">
       <div class="container-fluid">
         <div class="row">
           
           
-          <div class="col-md-10 offset-md-2 mx-5 my-2">
+          <div class="col-12 col-md-6 mb-3">
             <div class="card text-center ml-5">
                 <div class="card-body">
                   <h5 class="card-title">Cocina vegana</h5>
@@ -714,13 +609,13 @@
                     por Coala</p>
                   <p class="card-text"><small class="text-muted">Fecha Cuándo:16/12/2018</small></p>
                 </div>
-                <img class="card-img-bottom" src="./img/cocina-vegana.jpg" width="800" alt="Cocina vegana">
+                <img class="card-img-bottom" src="./img/cocina-vegana.jpg" style="width: 100%" alt="Cocina vegana">
               </div>
         </div>
         
 
         
-        <div class="col-md-10 offset-md-2 mx-5 my-2">
+        <div class="col-12 col-md-6 mb-3">
           <div class="card text-center ml-5">
               <div class="card-body">
                 <h5 class="card-title">Aristocracia Obrera</h5>
@@ -729,24 +624,35 @@
                   </p>
                 <p class="card-text"><small class="text-muted">Fecha Cuándo:17/12/2018</small></p>
               </div>
-              <img class="card-img-bottom" src="./img/aristocracia-obrera.jpg" width="800" alt="Aristocracia Obrera">
+              <img class="card-img-bottom" src="./img/aristocracia-obrera.jpg" style="width: 100%" alt="Aristocracia Obrera">
             </div>
       </div>
       
       
-      <div class="col-md-10 offset-md-2 mx-5 my-2">
+      <div class="col-12 col-md-6 mb-3">
         <div class="card text-center ml-5">
             <div class="card-body">
               <h5 class="card-title">Navidad cervecera en Avellaneda</h5>
               <p class="card-text">Gdor. Alberto Barcelo 537 Avellaneda, Pcia de Buenos Aires.</p>
               <p class="card-text"><small class="text-muted">Fecha Cuándo:22/12/2018</small></p>
             </div>
-            <img class="card-img-bottom" src="./img/navidad-cervecera.jpg" width="800" alt="Navidad cervecera en Avellaneda">
+            <img class="card-img-bottom" src="./img/navidad-cervecera.jpg" style="width: 100%" alt="Navidad cervecera en Avellaneda">
           </div>
     </div>
           
+    <div class="col-12 col-md-6 mb-3">
+      <div class="card text-center ml-5">
+          <div class="card-body">
+            <h5 class="card-title">Pigüé: Fiesta de la Omelette Gigante</h5>
+            <p class="card-text">Lugar:Parque Municipal Fortunato Chiappara, 
+              Pigüé, Av. Rastreador Fournier.</p>
+            <p class="card-text"><small class="text-muted">Fecha Cuándo:03/12/2018</small></p>
+          </div>
+          <img class="card-img-bottom" src="./img/fiesta-omelette-gigante.jpg" style="width: 100%" alt="Fiesta de la Omelette Gigante">
+        </div>
+  </div>
 
-      <div class="col-xs-12 col-sm-12 col-md-10 offset-md-2 mx-5 my-2">
+      <div class="col-12 mb-3">
         <div class="card text-center ml-5">
             <div class="card-body">
               <h5 class="card-title">Fiesta Nacional del durazno</h5>
@@ -754,22 +660,12 @@
               <p>Entrada gratuita.</p>
               <p class="card-text"><small class="text-muted">Fecha Cuándo:7-8-9/12/2018</small></p>
             </div>
-            <img class="card-img-bottom" src="./img/fiesta-durazno.jpg" width="800" alt="Fiesta Nacional del durazno">
+            <img class="card-img-bottom" src="./img/fiesta-durazno.jpg" style="width: 100%" alt="Fiesta Nacional del durazno">
           </div>
     </div>
           
-          <div class="col-md-10 offset-md-2 mx-5 my-2">
-              <div class="card text-center">
-                  <div class="card-body">
-                    <h5 class="card-title">Pigüé: Fiesta de la Omelette Gigante</h5>
-                    <p class="card-text">Lugar:Parque Municipal Fortunato Chiappara, 
-                      Pigüé, Av. Rastreador Fournier y Ruta Nacional 
-                      33.</p>
-                    <p class="card-text"><small class="text-muted">Fecha Cuándo:03/12/2018</small></p>
-                  </div>
-                  <img class="card-img-bottom" src="./img/fiesta-omelette-gigante.jpg" width="800" alt="Fiesta de la Omelette Gigante">
-                </div>
-          </div>
+    
+          
           
           
         </div>
@@ -777,13 +673,13 @@
     </section>
      
     <!--COMERCIOS-->
-    <div class="contatiner text-center py-3">
+    <div class="contatiner-fluid text-center py-3">
       <h2 class="h1">Cormecios</h2>
     </div><br>
     <section id="comercios">
       <div class="container-fluid mb-5">
         <div class="row">
-          <div class="col-xs-10 offset-xs-2 col-md-6 col-lg-4"><div class="card" style="width: 18rem;">
+          <div class="col-12 col-md-6 col-lg-4 my-3"><div class="card" style="width:100%">
             <img class="card-img-top" src="./img/restaurant-el-obrero.jpg" alt="Restaurante">
               <div class="card-body">
                 <h5 class="card-title">Restaurante "El Obrero"</h5>
@@ -792,18 +688,18 @@
               </div>
             </div>
           </div>
-          <div class="col-xs-10 offset-xs-2 col-md-6 col-lg-4"><div class="card" style="width: 18rem;">
+          <div class="col-12 col-md-6 col-lg-4 my-3"><div class="card" style="width:100%">
             <img class="card-img-top" src="./img/uribelarrea-queso-salame.jpg" alt="Card image cap">
               <div class="card-body">
                 <h5 class="card-title">Venta de quesos</h5>
                 <p class="card-text">Puesto de venta de quesos, fiambres y pan en Ulibelarrea.
-                Provincia de Buenos Aires.</p>
+                </p>
                 <a href="#" class="btn btn-success">Información</a>
               </div>
             </div>
           </div>
           
-          <div class="col-xs-10 offset-xs-2 col-md-6 col-lg-4"><div class="card" style="width: 18rem;">
+          <div class="col-12 col-md-6 col-lg-4 my-3"><div class="card" style="width:100%">
             <img class="card-img-top" src="./img/centolla-cantina-fueguina-freddy-ushuaia.jpg" alt="Centolla">
               <div class="card-body">
                 <h5 class="card-title">Centolla</h5>
@@ -813,18 +709,17 @@
             </div>
           </div>
         
-          <div class="col-xs-10 offset-xs-2 col-md-6 col-lg-4"><div class="card" style="width: 18rem;">
+          <div class="col-12 col-md-6 col-lg-4 my-3"><div class="card" style="width:100%">
             <img class="card-img-top" src="./img/curanto-goye-colonia-suiza-bariloche.jpg" alt="curanto en Colonia Suiza">
               <div class="card-body">
                 <h5 class="card-title">Card title</h5>
-                <p class="card-text">Victor Goye y su famoso curanto en Colonia Suiza,
-                Bariloche. Fusión de las culturas aborigen y
-                centroeuropea.</p>
+                <p class="card-text">Victor Goye y su famoso curanto
+                Bariloche. Fusión de culturas.</p>
                 <a href="#" class="btn btn-success">Información</a>
               </div>
             </div>
           </div>
-          <div class="col-xs-10 offset-xs-2 col-md-6 col-lg-4"><div class="card" style="width: 18rem;">
+          <div class="col-12 col-md-6 col-lg-4 my-3"><div class="card" style="width:100%">
             <img class="card-img-top" src="./img/pan-cacero-horno-barro.jpg" alt="Pan casero de campo">
               <div class="card-body">
                 <h5 class="card-title">Pan casero de campo</h5>
@@ -834,7 +729,7 @@
               </div>
             </div>
           </div>
-          <div class="col-xs-10 offset-xs-2 col-md-6 col-lg-4"><div class="card" style="width: 18rem;">
+          <div class="col-12 col-md-6 col-lg-4 my-3"><div class="card" style="width:100%">
           <img class="card-img-top" src="./img/asado-estaca.jpg" alt="Asado a la estaca">
             <div class="card-body">
               <h5 class="card-title">Asado a la estaca</h5>
@@ -849,19 +744,19 @@
     </section>
 
     <!--contactos-->
-    <div class="contatiner text-center mt-5 py-3">
+    <div class="contatiner-fluid text-center mt-5 py-3">
         <h2 class="h1">Contactos</h2>
       </div><br>
     <section id="contactos">
     
-      <div class="container mt-3">
+      <div class="container-fluid mt-3">
         <div class="row">
-            <div class="container text-center text-dark mt-3 px-5 py-2">
+            <div class="container-fluid text-center text-dark mt-3 px-5 py-2">
                 <h2 class="h1">Nuestro equipo</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, voluptatem alias? Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, iusto. Saepe, et cupiditate dolorem id voluptates voluptatum necessitatibus numquam alias distinctio eligendi voluptate dolores modi recusandae unde veniam obcaecati neque!</p>
               <div class="row">
               
-                <div class="col-lg-3">
+                <div class="col-md-6 col-lg-3">
                   <div class="card">
                     <div class="card-body">
                       <img src="img/person.png" class="img-fluid rounded-circle w-50" alt="person one">
@@ -898,7 +793,7 @@
                   </div>
                 </div>
               
-                <div class="col-lg-3">
+                <div class="col-md-6 col-lg-3">
                   <div class="card">
                       <div class="card-body">
                         <img src="img/person.png" class="img-fluid rounded-circle w-50" alt="person one">
@@ -935,7 +830,7 @@
                   </div>
                 </div>
               
-                <div class="col-lg-3">
+                <div class="col-md-6 col-lg-3">
                   <div class="card">
                         <div class="card-body">
                           <img src="img/person.png" class="img-fluid rounded-circle w-50" alt="person one">
@@ -972,7 +867,7 @@
                   </div>
                 </div>
               
-                <div class="col-lg-3">
+                <div class="col-md-6 col-lg-3">
                   <div class="card">
                           <div class="card-body">
                             <img src="img/person.png" class="img-fluid rounded-circle w-50" alt="person one">
@@ -1019,39 +914,46 @@
         <div class="container mt-5">
           <div class="row">
             <div class="col-md-6">
-                <div class="container p-3 text-center">
+                <div class="container-fluid p-3 text-center">
+                    <p>
+                        <a href="http://jigsaw.w3.org/css-validator/check/referer">
+                            <img style="border:0;width:88px;height:31px"
+                                src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+                                alt="¡CSS Válido!" />
+                            </a>
+                          </p>
                     <p class="text-white">Copyright &copy; 2018</p>
                     <div class="d-flex flex-row justify-content-center">
                         <div class="p-2">
                           <a href="http://facebook.com/fer-net-web" target="_blank">
-                          <i class="fab fa-facebook-f"></i>
+                          <img src="./img/facebook.png" style="width: 80%" alt="facebook">
                           </a>
                         </div>
                         <div class="p-2">
                           <a href="http://twitter.com/fer-net-web" target="_blank">
-                          <i class="fab fa-twitter"></i>
+                          <img src="./img/twitter.png" style="width: 80%" alt="twitter">
                           </a>
                         </div>
                         <div class="p-2">
                           <a href="http://instagrand.com" target="_blank">
-                          <i class="fab fa-instagram"></i>
+                          <img src="./img/instagram.png" style="width: 80%" alt="instagram">
                           </a>
                         </div>
                         <div class="p-2">
                           <a href="http://whatsapp" target="_blank">
-                          <i class="fab fa-whatsapp"></i>
+                          <img src="./img/whatsapp.png" style="width: 80%" alt="whatsapp">
                           </a>
                         </div>
                         <div class="p-2">
                           <a href="http://youtube.com" target="_blank">
-                          <i class="fab fa-youtube"></i>
+                          <img src="./img/youtube.png" style="width: 80%" alt="youtube">
                           </a>
                         </div>
                       </div>
                   </div>
             </div>
             <div class="col-md-6">
-                <div class="container">
+                <div class="container-fluid">
                     <h5>ETIQUETAS POPULARES</h5>
                     <p>
                       <span class="btn btn-secondary btn-sm">Recetas</span> 

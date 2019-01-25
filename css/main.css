@@ -1,1 +1,164 @@
-body{color:#20c6f8}header{background:url("../img/header.jpeg") no-repeat;width:auto;height:100vh}.background-overlay{background:rgba(0,0,0,0.3);width:100%;height:100vh}.card{border:3px solid #20c6f8;border-radius:15px;position:relative}.card img{border-radius:10px}.card-header button{background:#20c6f8;color:white;position:relative}.h1{background:#20c6f8;color:white;position:relative}#fondoPostre{position:absolute}#fondoComida{position:absolute}#recetas{background:url("../img/fondocomida.jpg") no-repeat;height:100vh;width:auto;position:relative}#repostres{background:url("../img/fondopostre.jpg") no-repeat;height:100vh;width:auto;position:relative}#team{position:relative}footer{background:#20c6f8}
+body{
+    color:#20c6f8
+}
+header{
+    background:url("../img/header.jpeg") no-repeat;
+    background-size: cover;
+    height:120vh
+}
+.background-overlay{
+    background:rgba(0,0,0,0.3);
+    background-size: cover;
+    height:120vh
+}
+.card{
+    border:3px solid #20c6f8;
+    border-radius:15px;
+    position:relative
+}
+.card img{
+    border-radius:10px
+}
+.card-header button{
+    background:#20c6f8;
+    color:white;
+    position:relative
+}
+.h1{
+    background:#20c6f8;
+    color:white;
+    
+}
+
+.absoluto{
+    position: absolute;
+    z-index: 1;
+}#recetas{
+    background:url("../img/fondocomida.jpg") no-repeat;
+    height:150vh;
+    background-size: cover;
+    position: relative;
+}#repostres{
+    background:url("../img/fondopostre.jpg") no-repeat;
+    height:150vh;
+    background-size: cover;
+    position: relative;
+}
+
+
+
+#team{
+    position:relative;
+}
+footer{
+    background:#20c6f8;
+}
+
+@media(min-width: 1200px){
+    header .background-overlay, h1{
+        font-size: 40px;
+    }
+    .h1, .card-title, .card-header button{
+        font-size: 40px
+    }
+    .card-text, p{
+        font-size: 25px
+    }
+    .collapse .card-body{
+        font-size: 25px
+    }
+    
+}
+
+@media(min-width: 1500px){
+    header .background-overlay, h1{
+        font-size: 50px;
+    }
+    .h1, .card-title, .card-header button{
+        font-size: 50px
+    }
+    .card-text, p{
+        font-size: 30px
+    }
+    .collapse .card-body{
+        font-size: 30px
+    }
+}
+
+@media(min-width: 1700px){
+    header .background-overlay, h1{
+        font-size: 60px;
+    }
+    .h1, .card-title, .card-header button{
+        font-size: 60px
+    }
+    .card-text, p{
+        font-size: 35px
+    }
+    .collapse .card-body{
+        font-size: 35px
+    }
+}
+
+@media(min-width: 2000px){
+    header .background-overlay, h1{
+        font-size: 70px;
+    }
+    .h1, .card-title, .card-header button{
+        font-size: 70px
+    }
+    .card-text, p{
+        font-size: 40px
+    }
+    .collapse .card-body{
+        font-size: 40px
+    }
+}
+
+@media(min-width: 2100px){
+    header .background-overlay, h1{
+        font-size: 100px;
+    }
+    .h1, .card-title, .card-header button{
+        font-size: 100px
+    }
+    .card-text, p{
+        font-size: 50px
+    }
+    .collapse .card-body{
+        font-size:50px
+    }
+}
+
+
+  @media (max-width: 992px) {
+    #recetas, #repostres{
+        height: 180vh;
+    }
+}
+@media (max-width:850px) {
+    #recetas, #repostres{
+        height: 200vh;
+    }
+}
+  @media (max-width: 767px) {
+    #recetas, #repostres{
+        height: 250vh;
+        }
+}
+@media (max-width: 650px) {
+    #recetas, #repostres{
+        height: 300vh;
+    }
+}
+    
+ @media (max-width: 576px) {
+    #recetas, #repostres{
+        height: 440vh;
+    }
+}
+@media (max-width: 490px) {
+    #recetas, #repostres{
+        height: 630vh;
+    }
+    }
