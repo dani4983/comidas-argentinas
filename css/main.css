@@ -133,32 +133,23 @@ footer{
 
   @media (max-width: 992px) {
     #recetas, #repostres{
+        height: 170vh;
+    }
+}
+
+@media (max-width: 576px) {
+    #recetas, #repostres{
         height: 180vh;
     }
 }
-@media (max-width:850px) {
+@media (max-width: 430px) {
     #recetas, #repostres{
-        height: 200vh;
+        height: 190vh;
     }
 }
-  @media (max-width: 767px) {
+
+@media (max-width: 390px) {
     #recetas, #repostres{
-        height: 250vh;
-        }
-}
-@media (max-width: 650px) {
-    #recetas, #repostres{
-        height: 300vh;
+        height: 210vh;
     }
 }
-    
- @media (max-width: 576px) {
-    #recetas, #repostres{
-        height: 440vh;
-    }
-}
-@media (max-width: 490px) {
-    #recetas, #repostres{
-        height: 630vh;
-    }
-    }
