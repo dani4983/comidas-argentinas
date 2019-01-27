@@ -131,7 +131,7 @@ footer{
 }
 
 
-  @media (max-width: 992px) {
+@media (max-width: 992px) {
     #recetas, #repostres{
         height: 170vh;
     }
@@ -146,10 +146,28 @@ footer{
     #recetas, #repostres{
         height: 190vh;
     }
-}
+} 
 
 @media (max-width: 390px) {
     #recetas, #repostres{
         height: 210vh;
+    }
+}
+
+@media (max-width: 330px) {
+    #recetas, #repostres{
+        height: 230vh;
+    }
+}
+
+@media (max-width: 300px) {
+    #recetas, #repostres{
+        height: 250vh;
+    }
+}
+
+@media (max-width: 270px) {
+    #recetas, #repostres{
+        height: 280vh;
     }
 }
